@@ -14,9 +14,9 @@ sheet1=wb["Sheet1"]
 #print(sheet1["B2"].value)
 #按行打印数据    因为按行,  所以返回A1, B1, C1 这样的顺序
 
-# for row in sheet1.rows:
-#     for cell in row:
-#         print(cell.value)
+for row in sheet1.rows:
+    for cell in row:
+        print(cell.value)
 
 # #按列打印数据  A1 A2 A3顺序
 # for column in sheet1.columns:
